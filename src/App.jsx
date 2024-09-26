@@ -6,16 +6,10 @@ import Supplier from "./components/Supplier";
 
 function App() {
   return (
-    <div className="">
-      <div className="nav">
-        <Navbar />
-      </div>
+    <div>
+      <Navbar />
       <div>
         <Header />
-        <div>
-          <Item />
-          <Supplier />
-        </div>
       </div>
     </div>
   );

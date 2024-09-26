@@ -1,31 +1,88 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.item-and-quantity {
-  display: flex;
-}
-
-.item-details {
-  background-color: aquamarine;
-}
-
-.nav {
-  background-color: aqua;
-}
+/* Navbar */
 
 .title {
   display: flex;
-  justify-spae
+  background-color: aqua;
+  height: 50px;
+  justify-content: space-between;
+  font-weight: bold;
 }
 
+.title > span {
+  margin-top: 5px;
+  font-size: large;
+}
 .invetory {
-    margin-left: 0;
+  margin-left: 20px;
 }
 
 .home {
-    margin-right: 0px;
+  margin-right: 20px;
+}
+
+/* Header */
+
+.checkbox-list {
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.submitted-data {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.submitted-data > button {
+  font-size: larger;
+  color: white;
+  background-color: #007aff;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Item */
+.item-details {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.item-values,
+.supplier-values {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Supplier */
+
+/* Userlist */
+
+.user-list {
+  margin: 20px;
+}
+
+.user-list-table > thead {
+  color: #007aff;
+}
+
+.user-list-header {
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.user-list-header > button {
+  margin-right: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: gray;
+  cursor: pointer;
 }
